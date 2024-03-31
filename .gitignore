@@ -1,2 +1,6 @@
 .DS_Store
 node_modules/
+# echo ".DS_Store" >> .gitignore
+# echo "node_modules/" >> .gitignore
+# git rm -r --cached node_modules
+# 

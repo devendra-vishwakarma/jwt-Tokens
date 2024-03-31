@@ -5,6 +5,9 @@ import mysql from "mysql2";
 import jwt from "jsonwebtoken";
 const app = express();
 
+// # echo ".DS_Store" >> .gitignore
+// # echo "node_modules/" >> .gitignore
+// # git rm -r --cached node_modules
 // Create a MySQL connection pool
 const connectionsdb = mysql.createPool({
     user: "root",
